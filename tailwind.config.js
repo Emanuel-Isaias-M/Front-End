@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',            // 👈 necesario para usar `dark:...`
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     extend: {
@@ -29,4 +30,5 @@ export default {
     require("@tailwindcss/line-clamp"),
   ],
 }
+
 
